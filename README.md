@@ -23,15 +23,33 @@ Clone this repo:
 
 # Usage:
 Run:
-* python3 dork -Q [Query] -C [RESULT COUNT] 
+* python3 dork -Q [QUERY] -C [RESULT COUNT]
+![InShot_20210607_140317944](https://user-images.githubusercontent.com/74001397/121014591-71055d00-c79a-11eb-9db9-73ac137f67d0.jpg)
 
-  e.g python3 dork -Q info:example.com -C 10
+
+  e.g python3 dork -Q inurl:index.php?id=1 -C 10
   
 Or:
-* python3 dork --query [QUERY] --count [RESULT COUNT] 
-  e.g python3 dork --query info:example.com --count 10
+* python3 dork --query [QUERY] --count [RESULT COUNT]
+![InShot_20210607_140449880](https://user-images.githubusercontent.com/74001397/121014948-c93c5f00-c79a-11eb-8b70-7d0d9ed75936.jpg)
+
+  e.g python3 dork --query inurl:index.php?id=1 --count 10
   
 # Help:
 * python3 dork -h
 * python3 dork --help
+![InShot_20210607_140613492](https://user-images.githubusercontent.com/74001397/121015529-626b7580-c79b-11eb-9863-04b73ff2cd0a.jpg)
+
+
+
   To view the help message
+  
+  # Notice:
+  This is for educational purposes only, the author Richard Mwewa [rly0nheart] will not be responsible for the damages that might be done with this tool.
+  
+  # Contact me:
+  Social media:
+  * [Twitter](https://twitter.com/rly0nheart/)
+  * [Facebook](https://fb.me/rly0nheart/)
+  * [Instagram](https://instagram.com/rlyonheart/)
+  * [Telegram](https://t.me/rlyonheart/)
