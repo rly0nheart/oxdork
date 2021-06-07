@@ -39,10 +39,13 @@ Or:
 * python3 dork -h
 * python3 dork --help
 ![InShot_20210607_140613492](https://user-images.githubusercontent.com/74001397/121015529-626b7580-c79b-11eb-9863-04b73ff2cd0a.jpg)
+To view the help message. 
+
+# The file dorks.txt:
+A collection of some Dorks here [dorks.txt](https://github.com/rlyonheart/0xdork/blob/master/dorks.txt)
 
 
 
-  To view the help message
   
   # Notice:
   This is for educational purposes only, the author Richard Mwewa [rly0nheart] will not be responsible for the damages that might be done with this tool.
