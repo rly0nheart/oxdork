@@ -9,11 +9,17 @@
  
  # Basic Google dorks:
 > intitle:    [Finds a specified strings in the title of a page]  e.g intitle:"your text"
+
 > allintext:  [Finds all specified terms in the title of a page]  e.g allintext:Passwords
+
 > inurl:      [Finds a specified string in the url o a page]      e.g inurl:index.php?id=1
+
 > site:       [Locks a search to a specified site or domain]      e.g site:example.com
+
 > link:       [Searches for all links to a specified site or url] e.g link:example.com
+
 > cache:      [Displays Google's cached copy of a specified url page] e.g cache:example.com
+
 > info:      [Displays summary information about a specified url]  e.g info:www.example.com
 
 # Installation:
