@@ -1,7 +1,7 @@
 # 0XDORK
- 𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to get sensitive information that is not easily available to the average user*.
-![0xdork](https://user-images.githubusercontent.com/74001397/121006418-2a5f3500-c791-11eb-81e3-8abd806dc84a.jpg)
 
+![0xdork](https://user-images.githubusercontent.com/74001397/121006418-2a5f3500-c791-11eb-81e3-8abd806dc84a.jpg)
+ 𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to get sensitive information that is not easily available to the average user*.
 
  
  # Google dorking
