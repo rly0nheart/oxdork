@@ -9,10 +9,12 @@ from assets.colors import red,redbg,yellow,green,white,end
 # logging configurations
 logging.basicConfig(format="%(asctime)s %(message)s",datefmt=f"[{red}%I{end}:{red}%M{end}:{red}%S%p{end}]",level=logging.INFO)
 
+# time configurations
 now = datetime.datetime.now()
-start = now.strftime("%a,%d %b %y - %I:%M:%S%p")
+start = now.strftime("%a,%d %b %Y - %I:%M:%S%p")
 seconds = datetime.datetime.now()-now
 
+# argparse configurations
 parser = argparse.ArgumentParser()
 parser.add_argument("-Q","--query",help="query",dest="query",required=True)
 parser.add_argument("-C","--count",help="count",dest="count",required=True)
@@ -24,7 +26,7 @@ arged = False
 if query and count:
     try:
         arged = True
-        print("\n%s%s Initializing %s0XD0RK 0.0.2%s - (https://github.com/rly0nheart)" % (white,start,yellow,end))
+        print("\n%s%s initializing %s0xdork 0.0.2%s - (https://github.com/rly0nheart)" % (white,start,yellow,end))
         requ = 0
         counter = 0
 
@@ -36,7 +38,8 @@ if query and count:
             if requ >= int(count):
                 break
 
-        print(f"{yellow}0XD0RK{end}{white} stopped in {red}{seconds}{end}{white} seconds.")
 
-    except Exception as HTTPError:
-        logging.info(f"{redbg}ERROR{end}:{red}{HTTPError}{end}")
+        print(f"{yellow}0xdork{end}{white} stopped in {red}{seconds}{end}{white} seconds.")
+
+    except Exception as e:
+        logging.info(f"{redbg}ERROR{end}:{red}{e}{end}")
