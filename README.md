@@ -53,7 +53,7 @@ A collection of some Dorks here [dorks.txt](https://github.com/rlyonheart/0xdork
 
 
   
-  # Notice:
+  # Disclaimer:
   This is for educational purposes only, the author Richard Mwewa [rly0nheart] will not be responsible for the damages that might be done with this tool.
   
   # Contact me:
