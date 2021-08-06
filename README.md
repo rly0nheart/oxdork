@@ -1,10 +1,10 @@
 # 0xdork
 
-![Python Version](https://img.shields.io/badge/python-3.x-blue?style=for-the-badge&logo=python)
-![OS](https://img.shields.io/badge/OS-GNU%2FLinux-red?style=for-the-badge&logo=linux)
-![GitHub](https://img.shields.io/github/license/rlyonheart/0xdork?ystyle=for-the-badge)
+![Python Version](https://img.shields.io/badge/python-3.x-blue?style=flat&logo=python)
+![OS](https://img.shields.io/badge/OS-GNU%2FLinux-red?style=flat&logo=linux)
+![GitHub](https://img.shields.io/github/license/rlyonheart/0xdork?ystyle=flat)
 [![CodeFactor](https://www.codefactor.io/repository/github/rlyonheart/0xdork/badge)](https://www.codefactor.io/repository/github/rlyonheart/0xdork)
-![Twitter](https://img.shields.io/twitter/follow/rly0nheart?&style=for-the-badge&logo=twitter)
+![Twitter](https://img.shields.io/twitter/follow/rly0nheart?&style=flat&logo=twitter)
 
 ![0xdork](https://user-images.githubusercontent.com/74001397/121006418-2a5f3500-c791-11eb-81e3-8abd806dc84a.jpg)
  𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to get sensitive information that is not easily available to the average user*.
