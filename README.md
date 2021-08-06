@@ -3,6 +3,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.x-blue?style=for-the-badge&logo=python)
 ![OS](https://img.shields.io/badge/OS-GNU%2FLinux-red?style=for-the-badge&logo=linux)
 ![GitHub](https://img.shields.io/github/license/rlyonheart/0xdork?ystyle=for-the-badge)
+[![CodeFactor](https://www.codefactor.io/repository/github/rlyonheart/0xdork/badge)](https://www.codefactor.io/repository/github/rlyonheart/0xdork)
 ![Twitter](https://img.shields.io/twitter/follow/rly0nheart?&style=for-the-badge&logo=twitter)
 
 ![0xdork](https://user-images.githubusercontent.com/74001397/121006418-2a5f3500-c791-11eb-81e3-8abd806dc84a.jpg)
