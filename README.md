@@ -1,5 +1,10 @@
 # 0xdork
 
+![Python Version](https://img.shields.io/badge/python-3.x-blue?style=for-the-badge&logo=python)
+![OS](https://img.shields.io/badge/OS-GNU%2FLinux-red?style=for-the-badge&logo=linux)
+![GitHub](https://img.shields.io/github/license/rlyonheart/0xdork?ystyle=for-the-badge)
+![Twitter](https://img.shields.io/twitter/follow/rly0nheart?&style=for-the-badge&logo=twitter)
+
 ![0xdork](https://user-images.githubusercontent.com/74001397/121006418-2a5f3500-c791-11eb-81e3-8abd806dc84a.jpg)
  𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to get sensitive information that is not easily available to the average user*.
 
@@ -63,8 +68,8 @@ A collection of some Dorks here [dorks.txt](https://github.com/rlyonheart/0xdork
   This is for educational purposes only, the author Richard Mwewa [rly0nheart] will not be responsible for the damages that might be done with this tool.
   
   # Contact me:
-  Social media:
-  * [Twitter](https://twitter.com/rly0nheart/)
-  * [Facebook](https://fb.me/rly0nheart/)
-  * [Instagram](https://instagram.com/rlyonheart/)
-  * [Telegram](https://t.me/rlyonheart/)
+
+ 
+
+
+
