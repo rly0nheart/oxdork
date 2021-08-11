@@ -4,6 +4,7 @@
 ![OS](https://img.shields.io/badge/OS-GNU%2FLinux-red?style=flat&logo=linux)
 ![GitHub](https://img.shields.io/github/license/rlyonheart/0xdork?ystyle=flat)
 ![CodeFactor](https://www.codefactor.io/repository/github/rlyonheart/0xdork/badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/rlyonheart/0xdork)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rlyonheart/0xdork)
 ![Twitter](https://img.shields.io/twitter/follow/rly0nheart?&style=flat&logo=twitter)
 
