@@ -30,7 +30,7 @@ if query and count:
         requ = 0
         counter = 0
 
-        for result in search(query,num=int(count),start=0,stop=None,lang="en",tld="com",pause=2):
+        for result in search(query,num=int(count),start=0,stop=None,lang="en",tld="com",pause=5):
             sleep(0.04)
             counter = counter + 1
             logging.info("%sDORK%s: %s%s%s. %s%s%s" % (white,end,red,counter,end,green,result,end))
