@@ -37,13 +37,11 @@
 
 > cd 0xdork 
 
-> pip install -r requirements.tx
+> pip install -r requirements.txt
 
 # Usage:
-**Run**:
-> python3 dork [SEARCH QUERY] -C [RESULT COUNT]
-![InShot_20210607_140317944](https://user-images.githubusercontent.com/74001397/121014591-71055d00-c79a-11eb-9db9-73ac137f67d0.jpg)
 
+> python3 dork [SEARCH QUERY] -C [RESULT COUNT]
 
 **Example** 
 > python3 dork inurl:index.php?id=1 -C 10
@@ -54,6 +52,9 @@
 
 **Example**:
 > python3 dork inurl:index.php?id=1 --count 10
+
+**Note**: 
+*If your search query contains spaces, you can put your query inside " " symbols.*
   
 # Help:
 > python3 dork -h
