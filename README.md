@@ -9,7 +9,7 @@
 ![Twitter](https://img.shields.io/twitter/follow/rly0nheart?&style=flat&logo=twitter)
 
 ![0xdork](https://user-images.githubusercontent.com/74001397/121006418-2a5f3500-c791-11eb-81e3-8abd806dc84a.jpg)
- 𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to get sensitive information that is not easily available to the average user*.
+ 𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to find security holes in configurations that websites use*.
 
  
  # Google dorking
@@ -36,11 +36,11 @@
 
 > cd 0xdork 
 
-> pip install -r REQUIREMENTS
+> pip install -r requirements.tx
 
 # Usage:
 **Run**:
-> python3 dork -Q [QUERY] -C [RESULT COUNT]
+> python3 dork [SEARCH QUERY] -C [RESULT COUNT]
 ![InShot_20210607_140317944](https://user-images.githubusercontent.com/74001397/121014591-71055d00-c79a-11eb-9db9-73ac137f67d0.jpg)
 
 
