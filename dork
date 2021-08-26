@@ -6,11 +6,13 @@ import logging
 import argparse
 import datetime
 from assets.colors import *
+from assets.banner import banner
 from googlesearch import search
 
 logging.basicConfig(format=f"{white}%(asctime)s {red}%(message)s{white}"
 ,datefmt=f"{white}%I{red}:{white}%M{red}:{white}%S%p",level=logging.DEBUG)
 
+print(banner)
 class Dork:
 	def __init__(self):
 		self.now = datetime.datetime.now()
