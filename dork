@@ -1,45 +1,52 @@
 #!/usr/bin/env python3
 
+import sys
+import time
+import logging
+import argparse
 import datetime
-import sys,argparse,logging
-from time import sleep
+from assets.colors import *
 from googlesearch import search
-from assets.colors import red,redbg,yellow,green,white,end
 
-# logging configurations
-logging.basicConfig(format="%(asctime)s %(message)s",datefmt=f"[{red}%I{end}:{red}%M{end}:{red}%S%p{end}]",level=logging.INFO)
+logging.basicConfig(format=f"{white}%(asctime)s {red}%(message)s{white}"
+,datefmt=f"{white}%I{red}:{white}%M{red}:{white}%S%p",level=logging.DEBUG)
 
-# time configurations
-now = datetime.datetime.now()
-start = now.strftime("%a,%d %b %Y - %I:%M:%S%p")
-seconds = datetime.datetime.now()-now
-
-# argparse configurations
-parser = argparse.ArgumentParser()
-parser.add_argument("-Q","--query",help="query",dest="query",required=True)
-parser.add_argument("-C","--count",help="count",dest="count",required=True)
-args = parser.parse_args()
-
-query = args.query
-count = args.count
-arged = False
-if query and count:
-    try:
-        arged = True
-        print("\n%s%s initializing %s0xdork 0.0.2%s - (https://github.com/rly0nheart)" % (white,start,yellow,end))
-        requ = 0
-        counter = 0
-
-        for result in search(query,num=int(count),start=0,stop=None,lang="en",tld="com",pause=5):
-            sleep(0.04)
-            counter = counter + 1
-            logging.info("%sDORK%s: %s%s%s. %s%s%s" % (white,end,red,counter,end,green,result,end))
-            requ += 1
-            if requ >= int(count):
-                break
+class Dork:
+	def __init__(self):
+		self.now = datetime.datetime.now()
+		self.start = self.now.strftime("%a, %d %B %Y - %I:%M:%S%p")
+		self.sec = time.time()
+		self.seconds = time.time()-self.sec
+		
+	def on_connect(self,query,count):
+	    number = 0
+	    counter = 0
+	    google_search = search(query,num=int(count),start=0,stop=None,lang="en",tld="com",pause=2)
+	    for result in google_search:
+	        counter += 1
+	        logging.info(f"{white}Google dork: {counter}. {green}{result}{end}")
+	        number += 1
+	        if number >= int(count):
+	        	break
+	        	
+	    sys.exit(f"{yellow}0xdork{white} stopped in {red}{self.seconds}{white} seconds.{end}")
 
 
-        print(f"{yellow}0xdork{end}{white} stopped in {red}{seconds}{end}{white} seconds.")
-
-    except Exception as e:
-        logging.info(f"{redbg}ERROR{end}:{red}{e}{end}")
+if __name__ == "__main__":
+	parser = argparse.ArgumentParser(description="0xDork: Google dorking tool developed by rly0nheart. | https://github.com/rlyonheart")
+	parser.add_argument("query",help="search query")
+	parser.add_argument("-C","--count",help="number of results to show",dest="count",required=True)
+	args = parser.parse_args()
+	query = args.query
+	count = args.count
+	print(f"{white}Connecting to google...{end}")
+	while True:
+		try:
+			Dork().on_connect(query,count)
+			
+		except KeyboardInterrupt:
+			sys.exit()
+			
+		except Exception as e:
+			print(f"{white}An error occured: {red}{e}{end}")
+			print(f"{white}Reconnecting...{end}")
