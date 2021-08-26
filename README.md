@@ -8,7 +8,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/rlyonheart/0xdork)
 ![Twitter](https://img.shields.io/twitter/follow/rly0nheart?&style=flat&logo=twitter)
 
-![0xdork](https://user-images.githubusercontent.com/74001397/121006418-2a5f3500-c791-11eb-81e3-8abd806dc84a.jpg)
+![Screenshot_20210826-214404](https://user-images.githubusercontent.com/74001397/131028816-b10318e9-a6a9-4774-a6f6-4f963d9bf673.jpg)
+
  𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to find security holes in configurations that websites use*.
 
  
@@ -45,20 +46,19 @@
 
 
 **Example** 
-> python3 dork -Q inurl:index.php?id=1 -C 10
+> python3 dork inurl:index.php?id=1 -C 10
   
 **Or**:
 
-> python3 dork --query [QUERY] --count [RESULT COUNT]
-![InShot_20210607_140449880](https://user-images.githubusercontent.com/74001397/121014948-c93c5f00-c79a-11eb-8b70-7d0d9ed75936.jpg)
+> python3 dork [SEARCH QUERY] --count [RESULT COUNT]
 
 **Example**:
-> python3 dork --query inurl:index.php?id=1 --count 10
+> python3 dork inurl:index.php?id=1 --count 10
   
 # Help:
 > python3 dork -h
 > python3 dork --help
-![InShot_20210607_140613492](https://user-images.githubusercontent.com/74001397/121015529-626b7580-c79b-11eb-9863-04b73ff2cd0a.jpg)
+
 To view the help message. 
 
 # The file dorks.txt:
