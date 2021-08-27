@@ -4,19 +4,16 @@ import sys
 import time
 import logging
 import argparse
-import datetime
 from assets.colors import *
 from assets.banner import banner
 from googlesearch import search
 
-logging.basicConfig(format=f"{white}%(asctime)s {red}%(message)s{white}"
-,datefmt=f"{white}%I{red}:{white}%M{red}:{white}%S%p",level=logging.DEBUG)
+logging.basicConfig(format=f"{white}[%(asctime)s] {red}%(message)s{white}"
+,datefmt=f"{white}%I{red}:{white}%M{red}:{white}%S%p",level=logging.INFO)
 
 print(banner)
 class Dork:
 	def __init__(self):
-		self.now = datetime.datetime.now()
-		self.start = self.now.strftime("%a, %d %B %Y - %I:%M:%S%p")
 		self.sec = time.time()
 		self.seconds = time.time()-self.sec
 		
@@ -26,7 +23,7 @@ class Dork:
 	    google_search = search(query,num=int(count),start=0,stop=None,lang="en",tld="com",pause=2)
 	    for result in google_search:
 	        counter += 1
-	        logging.info(f"{white}0xdork: {counter}. {green}{result}{end}")
+	        logging.info(f"{white}0xdork: [{counter}] {green}{result}{end}")
 	        number += 1
 	        if number >= int(count):
 	        	break
@@ -41,7 +38,7 @@ if __name__ == "__main__":
 	args = parser.parse_args()
 	query = args.query
 	count = args.count
-	print(f"{white}Connecting to google...{end}")
+	logging.info(f"{white}Connecting to google...{end}")
 	while True:
 		try:
 			Dork().on_connect(query,count)
@@ -50,5 +47,5 @@ if __name__ == "__main__":
 			sys.exit()
 			
 		except Exception as e:
-			print(f"{white}An error occured: {red}{e}{end}")
-			print(f"{white}Reconnecting...{end}")
+			logging.info(f"{white}An error occured: {red}{e}{end}")
+			logging.info(f"{white}Reconnecting...{end}")
