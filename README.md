@@ -64,14 +64,14 @@
 
 To view the help message. 
 
-# The file dorks.txt:
-A collection of some Dorks here [dorks.txt](https://github.com/rlyonheart/0xdork/blob/master/dorks.txt)
+# dork_queries.txt:
+A collection of some common dork queries here [dorks_queries](https://github.com/rlyonheart/0xdork/blob/master/dork_queries.txt)
 
 
 
   
   # Disclaimer:
-  This is for educational purposes only, the author Richard Mwewa [rly0nheart] will not be responsible for the damages that might be done with this tool.
+  *This is for educational purposes only, the author Richard Mwewa [rly0nheart] will not be responsible for the damages that might be done with this tool.*
   
   
 
