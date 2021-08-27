@@ -8,7 +8,6 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/rlyonheart/0xdork)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/rlyonheart/0xdork)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rlyonheart/0xdork)
-![Twitter](https://img.shields.io/twitter/follow/rly0nheart?&style=flat&logo=twitter)
 
 
 ![Screenshot_20210827-111909-removebg-preview](https://user-images.githubusercontent.com/74001397/131107876-db415339-0c1d-4876-8665-fe9b76c4518c.png)
