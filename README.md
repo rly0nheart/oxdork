@@ -45,15 +45,22 @@
 > python3 dork [SEARCH QUERY] -C [RESULT COUNT]
 
 **Example** 
-> $ python3 dork inurl:index.php?id=1 -C 10
-  ![Screenshot_20210827-133451~2](https://user-images.githubusercontent.com/74001397/131121857-c3030db2-95ed-474d-95b9-4202455a2285.jpg)
+> $ python dork inurl:index.php?id=1 -C 10
+
+*Or*
+> $ python dork inurl:index.php?id=1 --count 10
+  ![Screenshot_20210827-134753](https://user-images.githubusercontent.com/74001397/131123053-4048e715-1e8c-40c7-a4ad-b1ca9c3ccb38.jpg)
 
 **Note**: 
 *If your search query contains spaces, you can put your query inside " " symbols.*
   
 # Help:
 > $ python3 dork -h
+
+*Or*
 > $ python3 dork --help
+![Screenshot_20210827-133546](https://user-images.githubusercontent.com/74001397/131123277-8e7cb714-4be2-47d5-a926-1931941fd9d5.jpg)
+
 
 To view the help message. 
 
