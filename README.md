@@ -34,32 +34,32 @@
 
 # Installation:
 **Clone this repo**:
-> git clone https://github.com/rlyonheart/0xdork
+> $ git clone https://github.com/rlyonheart/0xdork
 
-> cd 0xdork 
+> $ cd 0xdork 
 
-> pip install -r requirements.txt
+> $ pip install -r requirements.txt
 
 # Usage:
 
 > python3 dork [SEARCH QUERY] -C [RESULT COUNT]
 
 **Example** 
-> python3 dork inurl:index.php?id=1 -C 10
+> $ python3 dork inurl:index.php?id=1 -C 10
   
 **Or**:
 
 > python3 dork [SEARCH QUERY] --count [RESULT COUNT]
 
 **Example**:
-> python3 dork inurl:index.php?id=1 --count 10
+> $ python3 dork inurl:index.php?id=1 --count 10
 
 **Note**: 
 *If your search query contains spaces, you can put your query inside " " symbols.*
   
 # Help:
-> python3 dork -h
-> python3 dork --help
+> $ python3 dork -h
+> $ python3 dork --help
 
 To view the help message. 
 
