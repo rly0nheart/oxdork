@@ -46,13 +46,7 @@
 
 **Example** 
 > $ python3 dork inurl:index.php?id=1 -C 10
-  
-**Or**:
-
-> python3 dork [SEARCH QUERY] --count [RESULT COUNT]
-
-**Example**:
-> $ python3 dork inurl:index.php?id=1 --count 10
+  ![Screenshot_20210827-133451~2](https://user-images.githubusercontent.com/74001397/131121857-c3030db2-95ed-474d-95b9-4202455a2285.jpg)
 
 **Note**: 
 *If your search query contains spaces, you can put your query inside " " symbols.*
