@@ -42,7 +42,7 @@
 
 # Usage:
 
-> python3 dork [SEARCH QUERY] -C [RESULT COUNT]
+> python dork [SEARCH QUERY] -C [RESULT COUNT]
 
 **Example** 
 > $ python dork inurl:index.php?id=1 -C 10
@@ -55,10 +55,10 @@
 *If your search query contains spaces, you can put your query inside " " symbols.*
   
 # Help:
-> $ python3 dork -h
+> $ python dork -h
 
 *Or*
-> $ python3 dork --help
+> $ python dork --help
 ![Screenshot_20210827-133546](https://user-images.githubusercontent.com/74001397/131123277-8e7cb714-4be2-47d5-a926-1931941fd9d5.jpg)
 
 
