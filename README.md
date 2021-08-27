@@ -8,7 +8,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/rlyonheart/0xdork)
 ![Twitter](https://img.shields.io/twitter/follow/rly0nheart?&style=flat&logo=twitter)
 
-![Screenshot_20210826-214404](https://user-images.githubusercontent.com/74001397/131028816-b10318e9-a6a9-4774-a6f6-4f963d9bf673.jpg)
+
+![Screenshot_20210827-111909-removebg-preview](https://user-images.githubusercontent.com/74001397/131107876-db415339-0c1d-4876-8665-fe9b76c4518c.png)
 
  𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to find security holes in configurations that websites use*.
 
