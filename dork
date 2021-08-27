@@ -26,7 +26,7 @@ class Dork:
 	    google_search = search(query,num=int(count),start=0,stop=None,lang="en",tld="com",pause=2)
 	    for result in google_search:
 	        counter += 1
-	        logging.info(f"{white}Google dork: {counter}. {green}{result}{end}")
+	        logging.info(f"{white}0xdork: {counter}. {green}{result}{end}")
 	        number += 1
 	        if number >= int(count):
 	        	break
