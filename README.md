@@ -35,31 +35,31 @@
 
 # Installation:
 **Clone this repo**:
-> $ git clone https://github.com/rlyonheart/0xdork
+> <code>$ git clone https://github.com/rlyonheart/0xdork</code>
 
-> $ cd 0xdork 
+> <code>$ cd 0xdork</code>
 
-> $ pip install -r requirements.txt
+> <code>$ pip install -r requirements.txt</code>
 
 # Usage:
 
 > python dork [SEARCH QUERY] -C [RESULT COUNT]
 
 **Example** 
-> $ python dork inurl:index.php?id=1 -C 10
+> <code>$ python dork inurl:index.php?id=1 -C 10</code>
 
 *Or*
-> $ python dork inurl:index.php?id=1 --count 10
+> <code>$ python dork inurl:index.php?id=1 --count 10</code>
   ![Screenshot_20210827-134753](https://user-images.githubusercontent.com/74001397/131123053-4048e715-1e8c-40c7-a4ad-b1ca9c3ccb38.jpg)
 
 **Note**: 
 *If your search query contains spaces, you can put your query inside " " symbols.*
   
 # Help:
-> $ python dork -h
+> <code>$ python dork -h</code>
 
 *Or*
-> $ python dork --help
+> <code>$ python dork --help</code>
 ![Screenshot_20210827-133546](https://user-images.githubusercontent.com/74001397/131123277-8e7cb714-4be2-47d5-a926-1931941fd9d5.jpg)
 
 
