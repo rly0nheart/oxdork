@@ -1,10 +1,11 @@
-import sys,time
+import sys
+import time
 import datetime
 import logging
 import random
 import argparse
 from dork import *
-from assets.colors import *
+from assets.colors import red,white,yellow,end
 from tqdm import tqdm
 from assets.banner import banner
 from googlesearch import search
