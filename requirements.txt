@@ -1,1 +1,2 @@
-google
+tqdm==4.60.0
+google==3.0.0
