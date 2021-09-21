@@ -11,7 +11,8 @@
 
 
 ![Screenshot_20210827-111909-removebg-preview](https://user-images.githubusercontent.com/74001397/131107876-db415339-0c1d-4876-8665-fe9b76c4518c.png)
-<a href="https://asciinema.org/a/uvffWkMqiBX1bZ4f67eDfkskS" target="_blank"><img src="https://asciinema.org/a/uvffWkMqiBX1bZ4f67eDfkskS.svg" /></a>
+![Screenshot_20210921-211108](https://user-images.githubusercontent.com/74001397/134234528-d838820c-bbfa-4576-946c-4227bff89e01.jpg)
+
 
  𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to find security holes and misconfigurations in web servers*.
 
