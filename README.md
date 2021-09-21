@@ -55,7 +55,7 @@
 *If your search query contains spaces, you can put it inside " " symbols.*
 
 > **Important**:
-*Use a VPN for better experience*
+*Sending more than 5 requests in less than 5 minutes will return a 429 error code. If you get this error your best bet will be using a VPN to avoid it.*
 
 
 # dork_queries.txt:
