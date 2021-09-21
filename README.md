@@ -42,29 +42,20 @@
 
 > <code>$ pip install -r requirements.txt</code>
 
-# Usage:
+# Arguments
 
-> python dork [SEARCH QUERY] -C [RESULT COUNT]
+| Flag           | Or            |MetaVar|                 Usage|
+| ------------- |:-------------:|:----------------------:|:---------:|
+| <code>-c</code>           | <code>--count</code>    | **RESULT COUNT** |  *Number of dork results to return* |
+| <code>-o</code>      | <code>--outfile</code>      |   **OUTFILE** |  *Output filename with extension*  |
+| <code>-h</code> | <code>--help</code>  |  **HELP**  |  *View help message*  |
 
-**Example** 
-> <code>$ python dork inurl:index.php?id=1 -C 10</code>
+>**Note**: 
+*If your search query contains spaces, you can put it inside " " symbols.*
 
-*Or*
-> <code>$ python dork inurl:index.php?id=1 --count 10</code>
-  ![Screenshot_20210827-134753](https://user-images.githubusercontent.com/74001397/131123053-4048e715-1e8c-40c7-a4ad-b1ca9c3ccb38.jpg)
+> **Important**:
+*Use a VPN for better experience*
 
-**Note**: 
-*If your search query contains spaces, you can put your query inside " " symbols.*
-  
-# Help:
-> <code>$ python dork -h</code>
-
-*Or*
-> <code>$ python dork --help</code>
-![Screenshot_20210827-133546](https://user-images.githubusercontent.com/74001397/131123277-8e7cb714-4be2-47d5-a926-1931941fd9d5.jpg)
-
-
-To view the help message. 
 
 # dork_queries.txt:
 A collection of some common dork queries here [dorks_queries](https://github.com/rlyonheart/0xdork/blob/master/dork_queries.txt)
@@ -73,7 +64,7 @@ A collection of some common dork queries here [dorks_queries](https://github.com
 
   
   # Disclaimer:
-  *This is for educational purposes only, the author Richard Mwewa [rly0nheart] will not be responsible for the damages that might be done with this tool.*
+  *This is for educational purposes only, and should not be used in environments without legal authorization. Therefore, the author will not be responsible for the damages that might be done with it.*
   
   
 
