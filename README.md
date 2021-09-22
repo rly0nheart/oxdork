@@ -32,7 +32,7 @@
 
 # Installation:
 **Clone this repo**:
-> <code>$ git clone https://github.com/rlyonheart/0xdork</code>
+> <code>$ git clone https://github.com/rlyonheart/0xdork.git</code>
 
 > <code>$ cd 0xdork</code>
 
