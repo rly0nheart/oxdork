@@ -51,9 +51,9 @@
 
 * *If your search query contains spaces, you can put it inside " " symbols.*
 
-* *When using **dork.py**; Sending more than 5 requests in less than 5 minutes will return a 429 error code. If you get this error your best bet will be using a VPN to avoid it.*
+* *When using **dork**; Sending more than 5 requests in less than 5 minutes will return a 429 error code. If you get this error your best bet will be using a VPN to avoid it.*
 
-# dork_lite.py:
+# dork_lite:
 *A lightweight faster version of **dork.py** with no verbosity. It does not return a 429 error code, neither does it need a VPN.*
 ![dork_lite](img/dork_lite.gif)
 
