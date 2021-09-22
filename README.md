@@ -46,15 +46,25 @@
 | <code>-o</code>      | <code>--outfile</code>      |   **OUTFILE** |  *Output filename with extension*  |
 | <code>-h</code> | <code>--help</code>  |  **HELP**  |  *View help message*  |
 
+
 # Notes:
 
 * *If your search query contains spaces, you can put it inside " " symbols.*
 
-* *Sending more than 5 requests in less than 5 minutes will return a 429 error code. If you get this error your best bet will be using a VPN to avoid it.*
+* *When using **dork.py**; Sending more than 5 requests in less than 5 minutes will return a 429 error code. If you get this error your best bet will be using a VPN to avoid it.*
+
+# dork_lite.py:
+*A lightweight version of **dork.py**. It does not return a 429 error code, neither does it need a VPN.*
+| Flag           | Or            |MetaVar|                 Usage|
+| ------------- |:-------------:|:----------------------:|:---------:|
+| <code>query</code>           |     | **SEARCH QUERY** |  *search query* |
+| <code>-o</code>      | <code>--outfile</code>      |   **OUTFILE** |  *Output filename with extension*  |
+| <code>-h</code> | <code>--help</code>  |  **HELP**  |  *View help message*  |
 
 
-# dork_queries.txt:
-A collection of some common dork queries here [dorks_queries](https://github.com/rlyonheart/0xdork/blob/master/dork_queries.txt)
+
+# Dorks/dork_queries.txt:
+A collection of some common dork queries here [Dorks](Dorks/dork_queries.txt)
 
 
 
