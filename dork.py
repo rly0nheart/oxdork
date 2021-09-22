@@ -5,7 +5,7 @@ from assets.colors import red, white, green, end
 
 parser = argparse.ArgumentParser(description=f"{red}0x{white}Dork{red}: Google dorking tool developed by {white}rly0nheart{red}. https://github.com/rlyonheart{end}")
 parser.add_argument("query", help="search query")
-parser.add_argument("-c","--count",help="number of results to show",dest="count", metavar="RESULTS COUNT", required=True)
+parser.add_argument("-c","--count",help="number of results to show (default is 50)",dest="count", metavar="RESULTS COUNT", default=50)
 parser.add_argument("-o","--outfile",help="output filename",dest="output", metavar="OUTPUT FILENAME")
 args = parser.parse_args()
 
