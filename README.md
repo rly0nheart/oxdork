@@ -1,4 +1,4 @@
-# 0xdork
+![Screenshot_20210827-111909-removebg-preview](https://user-images.githubusercontent.com/74001397/131107876-db415339-0c1d-4876-8665-fe9b76c4518c.png)
 
 ![Python Version](https://img.shields.io/badge/python-3.x-blue?style=flat&logo=python)
 ![OS](https://img.shields.io/badge/OS-GNU%2FLinux-red?style=flat&logo=linux)
@@ -10,7 +10,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/rlyonheart/0xdork)
 
 
-![Screenshot_20210827-111909-removebg-preview](https://user-images.githubusercontent.com/74001397/131107876-db415339-0c1d-4876-8665-fe9b76c4518c.png)
 ![Screenshot_20210921-211108](https://user-images.githubusercontent.com/74001397/134234528-d838820c-bbfa-4576-946c-4227bff89e01.jpg)
 
 
