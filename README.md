@@ -16,24 +16,19 @@
 
  𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to find security holes and misconfigurations in web servers*.
 
- 
- # Google dorking
+ # Google dorking:
  Google hacking, also named Google dorking, is a hacker technique that uses Google Search and other Google applications to find security holes in the configuration and computer code that websites are using. Google dorking could also be used for OSINT(Open Source Intelligence).
  
- # Basic Google dorks:
-> intitle:    [Finds a specified strings in the title of a page]  e.g intitle:"your text"
-
-> allintext:  [Finds all specified terms in the title of a page]  e.g allintext:Passwords
-
-> inurl:      [Finds a specified string in the url o a page]      e.g inurl:index.php?id=1
-
-> site:       [Locks a search to a specified site or domain]      e.g site:example.com
-
-> link:       [Searches for all links to a specified site or url] e.g link:example.com
-
-> cache:      [Displays Google's cached copy of a specified url page] e.g cache:example.com
-
-> info:      [Displays summary information about a specified url]  e.g info:www.example.com
+# Basic Google dorks:
+| Query         | Usage     | Example |
+| ------------- |:---------:|:-------:|
+| <code>allintext:</code> | *finds all specified terms in the title of a page* |  **allintext:passwords** |
+| <code>inurl:</code> | *finds a specified string in the url of a page*      |   **inurl:index.php?id=1** |
+| <code>site:</code> |  *locks a search on a specified site or domain*  |  **site:example.com**  |
+| <code>intitle:</code> |  *finds a specified strings in the title of a page* |  **intitle:"your text here"** |
+| <code>link:</code> | *searches for all links to a specified site or domain* | **link:example.com** |
+| <code>cache:</code> | *returns Google's cached copy of a specified url page* | **cache:www.example.com** |
+| <code>info:</code> | *returns summary information about a specified url* | **info:https://example.com** |
 
 # Installation:
 **Clone this repo**:
@@ -43,7 +38,7 @@
 
 > <code>$ pip install -r requirements.txt</code>
 
-# Arguments
+# Arguments:
 
 | Flag           | Or            |MetaVar|                 Usage|
 | ------------- |:-------------:|:----------------------:|:---------:|
@@ -51,11 +46,11 @@
 | <code>-o</code>      | <code>--outfile</code>      |   **OUTFILE** |  *Output filename with extension*  |
 | <code>-h</code> | <code>--help</code>  |  **HELP**  |  *View help message*  |
 
->**Note**: 
-*If your search query contains spaces, you can put it inside " " symbols.*
+# Notes:
 
-> **Important Note**:
-*Sending more than 5 requests in less than 5 minutes will return a 429 error code. If you get this error your best bet will be using a VPN to avoid it.*
+* *If your search query contains spaces, you can put it inside " " symbols.*
+
+* *Sending more than 5 requests in less than 5 minutes will return a 429 error code. If you get this error your best bet will be using a VPN to avoid it.*
 
 
 # dork_queries.txt:
