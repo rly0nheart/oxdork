@@ -6,7 +6,7 @@
 ![CodeFactor](https://www.codefactor.io/repository/github/rlyonheart/0xdork/badge)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/rlyonheart/0xdork)
 ![Lines of code](https://img.shields.io/tokei/lines/github/rlyonheart/0xdork)
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/rlyonheart/0xdork)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/rlyonheart/0xdork?include_prereleases)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rlyonheart/0xdork)
 ![0xdork](img/0xdork.gif)
 
