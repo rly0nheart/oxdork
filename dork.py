@@ -5,12 +5,12 @@ from assets.colors import red, white, green, end
 
 parser = argparse.ArgumentParser(description=f"{red}0x{white}Dork{red}: Google dorking tool developed by {white}rly0nheart{red}. https://github.com/rlyonheart{end}")
 parser.add_argument("query", help="search query")
-parser.add_argument("-c","--count",help="number of results to show (default is 50)",dest="count", metavar="RESULTS COUNT", default=50)
+parser.add_argument("-c","--count",help="number of results to show",dest="count", metavar="RESULTS COUNT", default=50)
 parser.add_argument("-o","--outfile",help="output filename",dest="output", metavar="OUTPUT FILENAME")
 args = parser.parse_args()
 
 if __name__ == "__main__":
-	logging.info(f"{white}Connecting to google[{green}{args.query}{white}]...{end}")
+	logging.info(f"{white}Fetching [{red}{args.count}{end}{white}] dorks[{green}{args.query}{white}]...{end}")
 	while True:
 		try:
 			Dork(args).on_connect()			
