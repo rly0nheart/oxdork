@@ -42,7 +42,7 @@
 
 | Flag           | Or            |MetaVar|                 Usage|
 | ------------- |:-------------:|:----------------------:|:---------:|
-| <code>-c</code>           | <code>--count</code>    | **RESULT COUNT** |  *Number of dork results to return* |
+| <code>-c</code>           | <code>--count</code>    | **RESULT COUNT** |  *Number of dork results to return (default is 50)* |
 | <code>-o</code>      | <code>--outfile</code>      |   **OUTFILE** |  *Output filename with extension*  |
 | <code>-h</code> | <code>--help</code>  |  **HELP**  |  *View help message*  |
 
