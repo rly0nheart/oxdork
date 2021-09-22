@@ -8,10 +8,10 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/rlyonheart/0xdork)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/rlyonheart/0xdork)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rlyonheart/0xdork)
-![0xdork](https://user-images.githubusercontent.com/74001397/134265208-5b576cc7-b20e-4ae0-9f1c-8500571ed3d6.gif)
+![0xdork](img/0xdork.gif)
 
 
-![Screenshot_20210921-211108](https://user-images.githubusercontent.com/74001397/134234528-d838820c-bbfa-4576-946c-4227bff89e01.jpg)
+![0xdork_screenshot](img/Screenshot_20210921-211108.jpg)
 
 
  𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to find security holes and misconfigurations in web servers*.
