@@ -11,7 +11,8 @@
 ![0xdork](img/0xdork.gif)
 
 
-![0xdork_screenshot](img/Screenshot_20210921-211108.jpg)
+![IMG_20210922_200225](https://user-images.githubusercontent.com/74001397/134488831-a82c78b4-4dd0-41ad-ac71-e14e53b85f13.jpg)
+
 
 
  𝟎𝐱𝐝𝐨𝐫𝐤 *uses Google dorking techniques and Google dorks to find security holes and misconfigurations in web servers*.
