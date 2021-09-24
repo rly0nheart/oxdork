@@ -4,7 +4,7 @@
 # It uses curl to send requests
 
 function 0Xdork(){
-	read query
+	read -r query
 	search="https://www.google.com/search?q=$query"
 	curl "https://api.hackertarget.com/pagelinks/?q=$search"
 
