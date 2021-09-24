@@ -8,7 +8,7 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/rlyonheart/0xdork)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/rlyonheart/0xdork?include_prereleases)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rlyonheart/0xdork)
-![0xdork](images/0xdork.gif)
+![0xdork](images/rlyonheart.gif)
 
 
 ![IMG_20210922_200225](https://user-images.githubusercontent.com/74001397/134488831-a82c78b4-4dd0-41ad-ac71-e14e53b85f13.jpg)
