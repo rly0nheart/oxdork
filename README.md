@@ -70,6 +70,7 @@
 
 * *Run* <code>$ bash dork_lite.sh</code>
 * *then enter query*
+![rlyo](https://user-images.githubusercontent.com/74001397/134688117-79fb7b30-b075-42e2-8c1a-c95520ac2137.gif)
 
 
 # dork_queries/dork_queries.txt:
