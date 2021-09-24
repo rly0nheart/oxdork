@@ -56,7 +56,7 @@
 
 # dork_lite:
 *A lightweight faster version of **dork** with no verbosity. It does not return a 429 error code, neither does it need a VPN.*
-![dork_lite](imgages/dork_lite.gif)
+![dork_lite](imgages/rlyonheart-1.gif)
 
 
 | Flag           | Or            |MetaVar|                 Usage|
