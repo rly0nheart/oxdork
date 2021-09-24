@@ -58,17 +58,22 @@
 *A lightweight faster version of **dork** with no verbosity. It does not return a 429 error code, neither does it need a VPN.*
 ![dork_lite](images/rlyonheart-1.gif)
 
-
 | Flag           | Or            |MetaVar|                 Usage|
 | ------------- |:-------------:|:----------------------:|:---------:|
 | <code>query</code>           |     | **SEARCH QUERY** |  *search query* |
 | <code>-o</code>      | <code>--outfile</code>      |   **OUTFILE** |  *Output filename with extension*  |
 | <code>-h</code> | <code>--help</code>  |  **HELP**  |  *View help message*  |
 
+# dork_lite.sh
+
+*A bash version of the python dork_lite*
+
+* *Run* <code>$ bash dork_lite.sh</code>
+* *then enter query*
 
 
-# dorks_queries/dork_queries.txt:
-A collection of some common dork queries here [Dorks](Dorks/dork_queries.txt)
+# dork_queries/dork_queries.txt:
+A collection of 5,568 common dork queries here [Dorks](dork_queries/dork_queries.txt)
 
 
 
