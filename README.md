@@ -71,7 +71,7 @@
 
 * *Run* <code>$ bash dork_lite.sh</code>
 * *then enter query*
-![rlyo](https://user-images.githubusercontent.com/74001397/134688117-79fb7b30-b075-42e2-8c1a-c95520ac2137.gif)
+![0xdork_lite](images/0xdork_lite.gif)
 
 
 # dork_queries/dork_queries.txt:
