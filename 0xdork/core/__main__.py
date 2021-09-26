@@ -1,6 +1,5 @@
 import sys
 import time
-import logging
 import random
 import argparse
 from tqdm import tqdm
@@ -9,9 +8,6 @@ from assets.banner import banner
 from resources.headers import user_agents
 from assets.colors import red,white,yellow,green,end
 
-
-logging.basicConfig(format=f"{white}[%(asctime)s] {red}%(message)s{white}"
-,datefmt=f"{white}%I{red}:{white}%M{red}:{white}%S%p",level=logging.DEBUG)
 
 print(banner)
 class Dork:
@@ -31,7 +27,7 @@ class Dork:
 	    		  counter+=1
 	    		  if args.output:
 	    		  	self.on_results(result)
-	    		  logging.info(f"{white}0xdork::: [{counter}] {green}{result}{end}")
+	    		  print(f"{white}[{green}{args.query}{white}] 0xdork:: [{counter}] {green}{result}{end}")
 	    		  time.sleep(0.05)
 	    		  number += 1
 	    		  if number >= int(args.count):
@@ -41,8 +37,8 @@ class Dork:
 	    	except KeyboardInterrupt:
 	    		sys.exit()
 	    	except Exception as e:
-	    		logging.debug(f"{white}Error: {red}{e}{end}")
-	    		logging.debug(f"{white}Reconnecting...{end}")
+	    		print(f"{white}Error: {red}{e}{end}")
+	    		print(f"{white}Reconnecting...{end}")
 	    
 	    
 	def on_results(self,result):
