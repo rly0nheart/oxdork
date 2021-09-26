@@ -10,7 +10,5 @@ if __name__ == "__main__":
 	parser.add_argument("-o","--outfile",help="output filename",dest="output", metavar="OUTPUT FILENAME")
 	args = parser.parse_args()
 
-	logging.info(f"{white}Fetching [{red}{args.count}{end}{white}] dorks [{green}{args.query}{white}]...{end}")
+	print(f"{white}Fetching [{red}{args.count}{end}{white}] dorks [{green}{args.query}{white}]...{end}")
 	Dork().on_connect(args)
-			
-		
