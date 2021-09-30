@@ -4,12 +4,10 @@ import random
 import argparse
 from tqdm import tqdm
 from googlesearch import search
-from assets.banner import banner
 from resources.headers import user_agents
 from assets.colors import red,white,yellow,green,end
 
 
-print(banner)
 class Dork:
 	def __init__(self):
 		self.start = time.time()
