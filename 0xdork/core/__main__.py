@@ -25,7 +25,7 @@ class Dork:
 	    		  counter+=1
 	    		  if args.output:
 	    		  	self.on_results(result)
-	    		  print(f"{white}[{green}{args.query}{white}] 0xdork:: [{counter}] {green}{result}{end}")
+	    		  print(f"{white}({green}{args.query}{white}) 0xdork:: ({counter}) {green}{result}{end}")
 	    		  time.sleep(0.05)
 	    		  number += 1
 	    		  if number >= int(args.count):
@@ -35,8 +35,8 @@ class Dork:
 	    	except KeyboardInterrupt:
 	    		sys.exit()
 	    	except Exception as e:
-	    		print(f"{white}Error: {red}{e}{end}")
-	    		print(f"{white}Reconnecting...{end}")
+	    		print(f"{white}* Error: {red}{e}{end}")
+	    		print(f"{white}* Retrying ({green}{args.query}{white})...{end}")
 	    
 	    
 	def on_results(self,result):
