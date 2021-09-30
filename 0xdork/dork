@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from core.__main__ import *
+from assets.banner import banner
 from assets.colors import red, white, green, end
 
 if __name__ == "__main__":
@@ -9,6 +10,9 @@ if __name__ == "__main__":
 	parser.add_argument("-c","--count",help="number of results to show",dest="count", metavar="RESULTS COUNT", default=50)
 	parser.add_argument("-o","--outfile",help="output filename",dest="output", metavar="OUTPUT FILENAME")
 	args = parser.parse_args()
-
-	print(f"{white}Fetching [{red}{args.count}{end}{white}] dorks [{green}{args.query}{white}]...{end}")
+	
+	print(banner)
+	print(f"{white}* Fetching ({red}{args.count}{end}{white}) dorks ({green}{args.query}{white})...{end}")
 	Dork().on_connect(args)
+			
+		
