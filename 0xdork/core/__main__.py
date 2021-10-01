@@ -3,6 +3,7 @@ import time
 import random
 import argparse
 from tqdm import tqdm
+from datetime import datetime
 from googlesearch import search
 from resources.headers import user_agents
 from assets.colors import red,white,yellow,green,end
@@ -10,8 +11,7 @@ from assets.colors import red,white,yellow,green,end
 
 class Dork:
 	def __init__(self):
-		self.start = time.time()
-		self.end = time.time()-self.start
+		self.start = datetime.now()
 		
 	def on_connect(self,args):
 	    number = 0
@@ -31,7 +31,7 @@ class Dork:
 	    		  if number >= int(args.count):
 	    		  	break
 	    		  	
-	    		sys.exit(f"{yellow}0xdork{white} stopped in {red}{self.end}{white} seconds.{end}")
+	    		sys.exit(f"{yellow}0xdork{white} stopped in {red}{datetime.now()-self.start}{white} seconds.{end}")
 	    	except KeyboardInterrupt:
 	    		sys.exit()
 	    	except Exception as e:
