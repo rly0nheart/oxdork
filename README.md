@@ -7,7 +7,6 @@
 ![OS](https://img.shields.io/badge/OS-GNU%2FLinux-red?style=flat&logo=linux)
 ![GitHub](https://img.shields.io/github/license/rlyonheart/oxdork?ystyle=flat)
 ![CodeFactor](https://www.codefactor.io/repository/github/rlyonheart/0xdork/badge)
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/rlyonheart/oxdork)
 ![Lines of code](https://img.shields.io/tokei/lines/github/rlyonheart/0xdork)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/rlyonheart/oxdork?include_prereleases)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rlyonheart/oxdork)
