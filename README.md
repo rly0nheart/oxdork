@@ -1,22 +1,3 @@
-# Repo Under Maintenance!!
-**Use the Pypi version to avoid errors**
-
-<code> **$ pip install oxdork**</code>
-
-<code> **$ oxdork --help**</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
 ![Screenshot_20210827-111909-removebg-preview](https://user-images.githubusercontent.com/74001397/131107876-db415339-0c1d-4876-8665-fe9b76c4518c.png)
 
 ![Python Version](https://img.shields.io/badge/python-3.x-blue?style=flat&logo=python)
