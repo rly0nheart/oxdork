@@ -25,7 +25,6 @@
 ![CodeFactor](https://www.codefactor.io/repository/github/rlyonheart/0xdork/badge)
 [![Downloads](https://static.pepy.tech/personalized-badge/oxdork?period=total&units=international_system&left_color=black&right_color=orange&left_text=pypi+downloads)](https://pepy.tech/project/oxdork)
 ![Lines of code](https://img.shields.io/tokei/lines/github/rlyonheart/0xdork)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/rlyonheart/oxdork?include_prereleases)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rlyonheart/oxdork)
 ![0xdork](images/0xdork.gif)
 
