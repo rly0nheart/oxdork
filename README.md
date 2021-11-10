@@ -30,7 +30,7 @@
 
 
 
-# Installation & Usage
+# Installation
 **Clone from Github**:
 ```
 git clone https://github.com/rlyonheart/oxdork.git
@@ -41,36 +41,55 @@ cd oxdork
 ```
 
 ```
-python oxdork QUERY
+pip install -r requirements.txt
 ```
 
-**example**:
-```
-python oxdork -v 'intext: osint'
-```
-
-**Install from pypi**:
+**Install from PyPI**:
 ```
 pip install oxdork
 ```
 
+# Usage
+**Github clone**:
 ```
-oxdork QUERY
-```
-
-**example**:
-```
-oxdork -v 'intext: osint'
+python oxdork -v query
 ```
 
+**Or**:
+```
+chmod +x oxdork
+```
+
+```
+./oxdork -v query
+```
+
+**PyPI Package**:
+```
+oxdork -v query
+```
+
+
+# Lite Packages
+**oxdork lite:python**:
+```
+python oxdork -v --lite query
+```
+
+**oxdork lite:bash**:
+```
+python oxdork -v --lite-shell query
+```
 
 # Optional Arguments
 
 | Flag           | MetaVar | Usage |
 | ------------- |:----------------------:|:---------:|
+| <code>--lite</code>    ||  *initiate the lightweight version of oxdork* |
+| <code>--lite-shell</code>    ||  *initiate the bash lightweight version of oxdork* |
 | <code>-c/--count</code>    | **NUMBER** |  *number of dork results to return (default is 50)* |
-| <code>-o/--outfile</code>      |   **FILENAME** |  *write output to a file*  |
-| <code>-v/--verbose</code>      |    |  *run oxdork in verbose mode*  |
+| <code>-o/--output</code>      |   **FILENAME** |  *write output to a file*  |
+| <code>-v/--verbose</code>      |    |  *run oxdork in verbose mode (recommended)*  |
 
 
 
@@ -80,26 +99,6 @@ oxdork -v 'intext: osint'
 * *If search query contains spaces, it should be put inside quote* **" "** *symbols.*
 
 * *Sending more than 5 requests in less than 5 minutes will return a 429 error code. That is why using a VPN is recommended.*
-
-# oxlite
-*A lightweight faster version of **oxdork** with no verbosity.*
-
-# Optional Arguments
-| Flag          | MetaVar|                 Usage|
-| ------------- |:----------------------:|:---------:|
-| <code>-o/--outfile</code>      |   **FILENAME** |  *write output to a specified file*  |
-
-# oxlite.sh
-
-*A bash version of the python oxlite*
-
-**Run**:
-```
-bash oxlite.sh
-```
-
-* *then enter query*
-
 
 # Queries
 A collection of 5,568 common dork queries [here](https://github.com/rlyonheart/oxdork/tree/master/dork_queries)
