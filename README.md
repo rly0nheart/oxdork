@@ -19,13 +19,13 @@
 
 | Dork         | Usage     | Example |
 | ------------- |:---------:|:-------:|
-| <code>allintext:</code> | <h4 align="center"><samp>finds all specified terms in the title of a page</samp></h4> |  **allintext:passwords** |
-| <code>inurl:</code> | <h4 align="center"><samp>finds a specified string in the url of a page</samp></h4>      |   **inurl:index.php?id=1** |
-| <code>site:</code> |  <h4 align="center"><samp>locks a search on a specified site or domain</samp></h4>  |  **site:example.com**  |
-| <code>intitle:</code> |  <h4 align="center"><samp>finds a specified strings in the title of a page</samp></h4> |  **intitle:"your text here"** |
-| <code>link:</code> | <h4 align="center"><samp>searches for all links to a specified site or domain</samp></h4> | **link:example.com** |
-| <code>cache:</code> | <h4 align="center"><samp>returns Google's cached copy of a specified url page</samp></h4> | **cache:www.example.com** |
-| <code>info:</code> | <h4 align="center"><samp>returns summary information about a specified url</samp></h4> | **info:https://example.com** |
+| <code>allintext:</code> | finds all specified terms in the title of a page |  **allintext:passwords** |
+| <code>inurl:</code> | finds a specified string in the url of a page     |   **inurl:index.php?id=1** |
+| <code>site:</code> |  locks a search on a specified site or domain  |  **site:example.com**  |
+| <code>intitle:</code> | finds a specified strings in the title of a page |  **intitle:"your text here"** |
+| <code>link:</code> | searches for all links to a specified site or domain | **link:example.com** |
+| <code>cache:</code> | returns Google's cached copy of a specified url page  | **cache:www.example.com** |
+| <code>info:</code> | returns summary information about a specified url | **info:https://example.com** |
 
 
 
@@ -84,11 +84,11 @@ python oxdork -v --lite-shell query
 
 | Flag           | MetaVar | Usage |
 | ------------- |:----------------------:|:---------:|
-| <code>--lite</code>    ||  <h4 align="center"><samp>initiate the lightweight version of oxdork</samp></h4> |
-| <code>--lite-shell</code>    ||  <h4 align="center"><samp>initiate the bash lightweight version of oxdork</samp></h4> |
-| <code>-c/--count</code>    | **NUMBER** |  <h4 align="center"><samp>number of dork results to return (default is 50)</samp></h4> |
-| <code>-o/--output</code>      |   **FILENAME** |  <h4 align="center"><samp>write output to a file</samp></h4>  |
-| <code>-v/--verbose</code>      |    |  <h4 align="center"><samp>run oxdork in verbose mode (recommended)</samp></h4>  |
+| <code>--lite</code>    ||  initiate the lightweight version of oxdork |
+| <code>--lite-shell</code>    || initiate the bash lightweight version of oxdork |
+| <code>-c/--count</code>    | **NUMBER** |  number of dork results to return (default is 50) |
+| <code>-o/--output</code>      |   **FILENAME** |  write output to a file  |
+| <code>-v/--verbose</code>      |    |  run oxdork in verbose mode (recommended)  |
 
 
 
