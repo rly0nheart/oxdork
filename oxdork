@@ -6,7 +6,7 @@ from lib.colors import red,white,yellow,green,end
 
 start = datetime.now()
 if args.verbose:
-    print(f"{white}[{green}*{white}] Started oxdork v2021.2.1.6 (https://pypi.org/project/oxdork) at {green}{start}{end}")
+    print(f"{white}[{green}*{white}] Started oxdork v2021.2.1.7 (https://git.io/JXDrh) at {green}{start}{end}")
 
 if __name__ == "__main__":
 	while True:
