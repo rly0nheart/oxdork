@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+
+from src.__main__ import *
+from datetime import datetime
+from lib.colors import red,white,yellow,green,end
+
+start = datetime.now()
+if args.verbose:
+    print(f"{white}[{green}*{white}] Started oxdork v2021.2.1.6 (https://pypi.org/project/oxdork) at {green}{start}{end}")
+
+if __name__ == "__main__":
+	while True:
+	    try:
+	    	Dork(args).main()
+	    	if args.verbose:
+	    		exit(f"{white}[{green}-{white}] Stopped in {green}{datetime.now()-start}{white} seconds.{end}")
+	    	break
+	    	
+	    except KeyboardInterrupt:
+	        if args.verbose:
+	            exit(f"\n{white}[{red}x{white}] Interrupted with {red}Ctrl{white}+{red}C{end}")
+	        break
+	        
+	    except Exception as e:
+	        if args.verbose:
+	            print(f"{white}[{red}!{white}] Error: {red}{e}{end}")
+	            print(f"{white}[{green}*{white}] Retrying...{end}")
