@@ -48,7 +48,7 @@ class oxdork:
 		
 	
 	def update(self):
-		files_to_update = ["src/main.py","lib/banner.py","lib/colors.py","dork"]
+		files_to_update = ["src/main.py","lib/banner.py","lib/colors.py","oxdork"]
 		for file in tqdm(files_to_update,desc=f"{white}Updating {red}ox{white}Dork{reset}"):
 			data = urllib.request.urlopen(f"https://raw.githubusercontent.com/rly0nheart/oxdork/master/{file}").read()
 			with open(file, "wb") as code:
