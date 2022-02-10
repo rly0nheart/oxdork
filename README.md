@@ -2,17 +2,17 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.x-blue?style=flat&logo=python)
 ![OS](https://img.shields.io/badge/OS-GNU%2FLinux-red?style=flat&logo=linux)
-![GitHub](https://img.shields.io/github/license/rlyonheart/oxdork?style=flat&logo=github)
-![CodeFactor](https://www.codefactor.io/repository/github/rlyonheart/oxdork/badge?style=flat&logo=codefactor)
+![GitHub](https://img.shields.io/github/license/rly0nheart/oxdork?style=flat&logo=github)
+![CodeFactor](https://www.codefactor.io/repository/github/rly0nheart/oxdork/badge?style=flat&logo=codefactor)
 [![Downloads](https://static.pepy.tech/personalized-badge/oxdork?period=total&units=international_system&left_color=black&right_color=orange&left_text=pypi+downloads&logo=pypi)](https://pepy.tech/project/oxdork)
-![Lines of code](https://img.shields.io/tokei/lines/github/rlyonheart/oxdork?style=flat&logo=github)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/rlyonheart/oxdork?include_prereleases?style=flat&logo=github)
-![GitHub repo size](https://img.shields.io/github/repo-size/rlyonheart/oxdork?style=flat&logo=github)
+![Lines of code](https://img.shields.io/tokei/lines/github/rly0nheart/oxdork?style=flat&logo=github)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/rly0nheart/oxdork?include_prereleases?style=flat&logo=github)
+![GitHub repo size](https://img.shields.io/github/repo-size/rly0nheart/oxdork?style=flat&logo=github)
 
 <h4 align="center"><samp> Google hacking, also named Google dorking, is a hacker technique that uses Google Search and other Google applications to find security holes in the configuration and computer code that websites are using. Google dorking could also be used for OSINT (Open Source Intelligence). </samp></h4>
  
 
-<h4 align="center"><samp> OXDORK uses Google dorking techniques and Google dorks to find security holes and misconfigurations in web servers. </samp></h4>
+<h4 align="center"><samp> oxDork uses Google dorking techniques and Google dorks to find security holes and misconfigurations in web servers. </samp></h4>
 
 
 # Basic dorks
@@ -29,83 +29,65 @@
 
 
 
-# Installation
+# Installation & Usage
 **Clone from Github**:
 ```
-git clone https://github.com/rlyonheart/oxdork.git
+$ git clone https://github.com/rly0nheart/oxdork.git
 ```
 
 ```
-cd oxdork
+$ cd oxdork
 ```
 
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
+```
+
+```
+$ python dork -q searchquery
 ```
 
 **Install from PyPI**:
 ```
-pip install oxdork
+$ pip install oxdork
 ```
 
-# Usage
+```
+$ oxdork -q searchquery
+```
+
+
+# Updating
 **Github clone**:
 ```
-python oxdork -v query
-```
-
-**Or**:
-```
-chmod +x oxdork
-```
-
-```
-./oxdork -v query
+$ python oxdork --update
 ```
 
 **PyPI Package**:
 ```
-oxdork -v query
-```
-
-
-# Lite Packages
-**oxdork lite:python**:
-```
-python oxdork -v --lite query
-```
-
-**oxdork lite:bash**:
-```
-python oxdork -v --lite-shell query
+pip install --upgrade oxdork
 ```
 
 # Optional Arguments
 
 | Flag           | MetaVar | Usage |
 | ------------- |:----------------------:|:---------:|
-| <code>--lite</code>    ||  initiate the lightweight version of oxdork |
-| <code>--lite-shell</code>    || initiate the bash lightweight version of oxdork |
-| <code>-c/--count</code>    | **NUMBER** |  number of dork results to return (default is 50) |
-| <code>-o/--output</code>      |   **FILENAME** |  write output to a file  |
-| <code>-v/--verbose</code>      |    |  run oxdork in verbose mode (recommended)  |
+| <code>-q/--query</code>    ||  search query |
+| <code>-u/--update</code>    ||  update oxdork |
+| <code>--minimal</code>    || initiate a lightweight alternative of oxdork |
+| <code>-c/--count</code>    | *number* |  number of dork results to return (default is 10) |
+| <code>-d/--dump</code>      |   *path/to/file* |  write output to a specified file  |
+| <code>-v/--verbose</code>      |    |  enable verbosity (recommended)  |
 
 
 
-# Notes:
-* *Use VPN for better experience.*
+# Note(s):
+> *Use VPN for better experience.*
 
-* *If search query contains spaces, it should be put inside quote* **" "** *symbols.*
-
-* *Sending more than 5 requests in less than 5 minutes will return a 429 error code. That is why using a VPN is recommended.*
+> *Sending more than 5 requests in less than 5 minutes will return a 429 error code. If this happens you can pass the --minimal argument instead.*
 
 # Queries
-A collection of 5,568 common dork queries [here](https://github.com/rlyonheart/oxdork/tree/master/dork_queries)
+A collection of 5,568 common dork queries [here](https://github.com/rly0nheart/oxdork/tree/master/dork_queries)
 
 # About author
-* [About.me](https://about.me/rlyonheart)
-
-# Contact author
-* [Github](https://github.com/rlyonheart)
-
-* [Twitter](https://twitter.com/rly0nheart)
+* [About.me](https://about.me/rly0nheart)
