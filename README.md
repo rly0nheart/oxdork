@@ -48,7 +48,7 @@ $ python oxdork --update
 # Note(s):
 > *Use VPN for better experience.*
 
-> *Sending more than 5 requests in less than 5 minutes will return a 429 error code. If this happens you can pass the --minimal argument instead.*
+> *Sending more than 5 requests in less than 5 minutes will return a 429 error code. If this happens you can pass the -m/--minimal argument instead.*
 
 # PyPI Package
 View package on [PyPI](https://pypi.org/project/oxdork)
