@@ -9,7 +9,7 @@ oxDork uses Google dorking techniques and Google dorks to find security holes an
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/rly0nheart/oxdork?include_prereleases&style=for-the-badge&logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rly0nheart/oxdork?style=for-the-badge&logo=github)
 
-![oxdork](https://user-images.githubusercontent.com/74001397/156898875-2eb5f30c-2d62-4415-b718-2791b79b6888.gif)
+![oxdork](https://user-images.githubusercontent.com/74001397/156899717-538333bd-934c-4d3e-a30e-0f87c7389ddd.gif)
 
 # Installation
 ```
