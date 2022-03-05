@@ -63,7 +63,7 @@ parser = argparse.ArgumentParser(description=f"{white}Google dorking tool{reset}
 parser.add_argument("-q","--query", help=f"{white}search query{reset}")
 parser.add_argument("-c","--count",help=f"{white}number of results to show ({green}default is 10{white}){reset}",metavar=f"{white}number{reset}", default=10)
 parser.add_argument("-d","--dump",help=f"{white}dump output to specified file{reset}",metavar=f"{white}path/to/file{reset}")
-parser.add_argument("--minimal",help=f"{white}run a minimal version of oxdork{reset}",action="store_true")
+parser.add_argument("-m","--minimal",help=f"{white}run a minimal version of oxdork{reset}",action="store_true")
 parser.add_argument("-v","--verbose",help=f"{white}enable verbosity{reset}",action="store_true")
 parser.add_argument("-u","--update",help=f"{white}update oxdork to the most current version{reset}",action="store_true")
 args = parser.parse_args()
