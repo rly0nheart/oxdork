@@ -11,40 +11,8 @@ oxDork uses Google dorking techniques and Google dorks to find security holes an
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/rly0nheart/oxdork?include_prereleases&style=for-the-badge&logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rly0nheart/oxdork?style=for-the-badge&logo=github)
 ***
-# Installation
-```
-$ git clone https://github.com/rly0nheart/oxdork.git
-```
-
-```
-$ cd oxdork
-```
-
-```
-$ pip install -r requirements.txt
-```
-
-# Usage
-```
-$ python oxdork [query]
-```
-
-# Updating
-```
-$ python oxdork --update
-```
-
-# Optional Arguments
-
-| Flag           | MetaVar | Usage |
-| ------------- |:----------------------:|:---------:|
-| <code>-q/--query</code>    | [query] |  search query |
-| <code>-u/--update</code>    ||  update oxdork |
-| <code>-m/--minimal</code>    || initiate a minimal alternative of oxdork |
-| <code>-c/--count</code>    | *number* |  number of dork results to return (default is 10) |
-| <code>-d/--dump</code>      |   *path/to/file* |  write output to a specified file  |
-| <code>-v/--verbose</code>      |    |  enable verbosity (recommended)  |
-
+# WIKI
+Check the installation guide on the [wiki](https://github.com/rly0nheart/oxdork/wiki/Installation)
 # Note(s):
 > *Use VPN for better experience.*
 
