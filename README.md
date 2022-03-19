@@ -28,4 +28,4 @@ View package on [PyPI](https://pypi.org/project/oxdork)
 A collection of 5,568 common dork queries [here](https://github.com/rly0nheart/oxdork/tree/master/dork_queries)
 
 # ABOUT DEVELOPER
-My about info [here](https://about.me/rly0nheart)
+My info on [about me](https://about.me/rly0nheart)
