@@ -9,33 +9,36 @@ from lib.colors import red,white,green,reset
 
 class oxdork:
 	def __init__(self,args):
-		if args.minimal:
-			print(self.minimal())
+		if args.query:
+			if args.minimal:
+				print(self.minimal())
+			else:
+				self.dork()
 		elif args.update:
 			self.update()
 		else:
-			self.on_connection()
+			exit(f"{white}oxdork: use {green}-h{white}/{green}--help{white} to show usage.{reset}")
 			
 			
-	def on_connection(self):
+	def dork(self):
 	   number=0
 	   counter=0
 	   if args.verbose:
-	   	logging.info(f"{white}Fetching {args.count} dorks...")
+	   	logging.info(f"{white}Fetching [{args.count}] dorks. Please wait...")
 	   for results in search(args.query, num=int(args.count),start=0,stop=None,lang="en",tld="com", pause=2.5):
 	       number+=1
 	       counter+=1
 	       logging.debug(f"[{counter}] {green}{results}{reset}")
 	       
-	       if args.dump:
-	           self.dump(results,counter)
+	       if args.output:
+	           self.output(results,counter)
 	           
 	       if number >= int(args.count):
 	       	break
 	       	
 	   
-	def dump(self,results,counter):
-		with open(args.dump, "a") as file:
+	def output(self,results,counter):
+		with open(args.output, "a") as file:
 			file.write(f"[{counter}] {results}\n")
 			file.close()
 			
@@ -48,7 +51,7 @@ class oxdork:
 		
 	
 	def update(self):
-		files_to_update = ["src/main.py","lib/banner.py","lib/colors.py","oxdork"]
+		files_to_update = ["src/main.py","lib/banner.py","lib/colors.py","oxdork","dork_queries/dork_queries.txt","LICENSE","README.md","requirements.txt"]
 		for file in tqdm(files_to_update,desc=f"{white}Updating {red}ox{white}Dork{reset}"):
 			data = urllib.request.urlopen(f"https://raw.githubusercontent.com/rly0nheart/oxdork/master/{file}").read()
 			with open(file, "wb") as code:
@@ -59,13 +62,13 @@ class oxdork:
 		exit()
 		
 
-parser = argparse.ArgumentParser(description=f"{white}Google dorking tool{reset}",epilog=f"{red}ox{white}Dork uses Google dorking techniques and Google dorks to find security holes and misconfigurations in web servers. Developed by {green}Richard Mwewa{white} | https://about.me/{green}rly0nheart{reset}")
-parser.add_argument("-q","--query", help=f"{white}search query{reset}")
-parser.add_argument("-c","--count",help=f"{white}number of results to show ({green}default is 10{white}){reset}",metavar=f"{white}number{reset}", default=10)
-parser.add_argument("-d","--dump",help=f"{white}dump output to specified file{reset}",metavar=f"{white}path/to/file{reset}")
-parser.add_argument("-m","--minimal",help=f"{white}run a minimal version of oxdork{reset}",action="store_true")
-parser.add_argument("-v","--verbose",help=f"{white}enable verbosity{reset}",action="store_true")
-parser.add_argument("-u","--update",help=f"{white}update oxdork to the most current version{reset}",action="store_true")
+parser = argparse.ArgumentParser(description=f"{white}Google dorking tool — by Richard Mwewa | https://about.me/rly0nheart{reset}",epilog=f"{red}ox{white}Dork uses Google dorking techniques and Google dorks to find security holes and misconfigurations in web servers.{reset}")
+parser.add_argument("-q","--query", help="query",metavar="<query>")
+parser.add_argument("-c","--count",help="number of results to show (default is 10){reset}",metavar="<number>", default=10)
+parser.add_argument("-o","--output",help="write output to specified file",metavar="<filename>")
+parser.add_argument("-m","--minimal",help="enable a minimal alternative of oxdork",action="store_true")
+parser.add_argument("-v","--verbose",help="enable verbosity",action="store_true")
+parser.add_argument("-u","--update",help="update oxdork",action="store_true")
 args = parser.parse_args()
 
 start_time = datetime.now()
