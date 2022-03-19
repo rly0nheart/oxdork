@@ -69,6 +69,8 @@ parser.add_argument("-o","--output",help="write output to specified file",metava
 parser.add_argument("-m","--minimal",help="enable a minimal alternative of oxdork",action="store_true")
 parser.add_argument("-v","--verbose",help="enable verbosity",action="store_true")
 parser.add_argument("-u","--update",help="update oxdork",action="store_true")
+parser.add_argument("--version",version="2022.2.2.0 Released on 20th March 2022",action="version")
+args = 
 args = parser.parse_args()
 
 start_time = datetime.now()
