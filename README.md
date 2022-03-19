@@ -12,7 +12,8 @@ oxDork uses Google dorking techniques and Google dorks to find security holes an
 ![GitHub repo size](https://img.shields.io/github/repo-size/rly0nheart/oxdork?style=for-the-badge&logo=github)
 ***
 # WIKI
-Check the installation guide on the [wiki](https://github.com/rly0nheart/oxdork/wiki/Installation)
+Check the installation guide, usage, available options on the [wiki](https://github.com/rly0nheart/oxdork/wiki/)
+
 # Note(s):
 > *Use VPN for better experience.*
 
