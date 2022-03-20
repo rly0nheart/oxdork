@@ -24,7 +24,7 @@ class oxdork:
 	   number=0
 	   counter=0
 	   if args.verbose:
-	   	logging.info(f"{white}Fetching [{args.count}] dorks. Please wait...")
+	   	logging.info(f"{white}Fetching [{green}{args.count}{white}] dorks. Please wait...")
 	   for results in search(args.query, num=int(args.count),start=0,stop=None,lang="en",tld="com", pause=2.5):
 	       number+=1
 	       counter+=1
@@ -64,7 +64,7 @@ class oxdork:
 
 parser = argparse.ArgumentParser(description=f"{white}Google dorking tool — by Richard Mwewa | https://about.me/rly0nheart{reset}",epilog=f"{red}ox{white}Dork uses Google dorking techniques and Google dorks to find security holes and misconfigurations in web servers.{reset}")
 parser.add_argument("-q","--query", help="query",metavar="<query>")
-parser.add_argument("-c","--count",help="number of results to show (default is 10){reset}",metavar="<number>", default=10)
+parser.add_argument("-c","--count",help="number of results to show (default is 10)",metavar="<number>", default=10)
 parser.add_argument("-o","--output",help="write output to specified file",metavar="<filename>")
 parser.add_argument("-m","--minimal",help="enable a minimal alternative of oxdork",action="store_true")
 parser.add_argument("-v","--verbose",help="enable verbosity",action="store_true")
