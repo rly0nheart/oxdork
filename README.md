@@ -20,7 +20,7 @@ Available options* on the [wiki](https://github.com/rly0nheart/oxdork/wiki/)
 # NOTE(S):
 > *Use VPN for better experience.*
 
-> *Sending more than 5 requests in less than 5 minutes will return a 429 error code. If this happens you can pass the -m/--minimal argument instead.*
+>> *Sending more than 5 requests in less than 5 minutes will return a 429 error code. If this happens you can pass the -m/--minimal argument instead.*
 
 ***
 # PYPI PACKAGE
