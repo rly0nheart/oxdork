@@ -7,7 +7,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/rly0nheart/oxdork?style=for-the-badge&logo=github)
 
 
-![Screenshot_2022-03-17_10-25-50](https://user-images.githubusercontent.com/74001397/158896243-8f05629b-5efe-4174-ada8-85569d512e01.png)
+
+![Screenshot_20230207_124512](https://user-images.githubusercontent.com/74001397/217223738-9a432f18-a30e-4121-87ca-09c7dad081e3.png)
 
 oxDork uses Google dorking techniques and Google dorks to find security holes and misconfigurations in web servers.
 
