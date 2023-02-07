@@ -9,7 +9,7 @@ def create_parser():
     parser.add_argument("-n", "--count", help="number of results to show (default %(default)s).", default=10)
     parser.add_argument("-c", "--colors", "--colours", help="enable colo[u]rs", action="store_true")
     parser.add_argument("-w", "--output", help="write output to specified file.")
-    parser.add_argument("-V", "--version", help="show program's version and exit.", action="version",
+    parser.add_argument("-V", "--version", action="version",
                         version=version_tag)
     return parser
 
