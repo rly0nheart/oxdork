@@ -1,7 +1,12 @@
-from lib.colors import red,reset
-banner = f"""{red}
+version_tag = "3.0.0"
+
+
+def ascii_banner():
+    banner = f"""[red]
       ▐▄• ▄ ·▄▄▄▄        ▄▄▄  ▄ •▄ 
  ▄█▀▄  █▌█▌▪██▪ ██  ▄█▀▄ ▀▄ █·█▌▄▌▪
 ▐█▌.▐▌ ·██· ▐█· ▐█▌▐█▌.▐▌▐▀▀▄ ▐▀▀▄·
 ▐█▌.▐▌▪▐█·█▌██. ██ ▐█▌.▐▌▐█•█▌▐█.█▌
- ▀█▄▀▪•▀▀ ▀▀▀▀▀▀▀•  ▀█▄▀▪.▀  ▀·▀  ▀{reset}"""
+ ▀█▄▀▪•▀▀ ▀▀▀▀▀▀▀•  ▀█▄▀▪.▀  ▀·▀  ▀
+                             [/]v{version_tag}"""
+    return banner
