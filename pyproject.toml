@@ -1,0 +1,32 @@
+[project]
+name = "oxdork"
+version = "3.0.0"
+description = "Google dorking tool"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["python", "osint", "google-dorking", "osint", "inurl", "intext", "intitle"]
+authors = [{name = "Richard Mwewa", email = "rly0nheart@duck.com"}]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python :: 3",
+  "Intended Audience :: Information Technology",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Natural Language :: English",
+  ""
+]
+
+dependencies = [
+  "rich",
+  "google",
+  "requests"
+]
+
+[project.urls]
+homepage = "https://github.com/rly0nheart/oxdork"
+documentation = "https://github.com/rly0nheart/oxdork/blob/master/README.md"
+repository = "https://github.com/rly0nheart/oxdork.git"
+
+[project.scripts]
+oxdork = "oxdork.main:main"
