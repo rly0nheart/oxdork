@@ -25,7 +25,7 @@ dependencies = [
 
 [project.urls]
 homepage = "https://github.com/rly0nheart/oxdork"
-documentation = "https://github.com/rly0nheart/oxdork/blob/master/README.md"
+documentation = "https://github.com/rly0nheart/oxdork/wiki/"
 repository = "https://github.com/rly0nheart/oxdork.git"
 
 [project.scripts]
