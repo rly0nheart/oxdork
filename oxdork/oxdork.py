@@ -18,7 +18,7 @@ def process_user_query(query):
         with open(query, 'r') as file:
             log.info(f"Loaded queries from file: {file.name}")
             for count, line in enumerate(file, start=1):
-                log.info(f"Current query: {count}. '{line}'")
+                log.info(f"Current query: {count}. {line}")
                 start_search_with_query(query=line, count=arguments.count, output=arguments.output)
     else:
         start_search_with_query(query=query, count=arguments.count, output=arguments.output)
@@ -27,7 +27,7 @@ def process_user_query(query):
 # Start search with the query from the process_query function
 def start_search_with_query(query, count, output):
     number = 0
-    log.info(f"Fetching {count} results for '{query}'...")
+    log.info(f"Fetching {count} results for {query}...")
     for counter, result in enumerate(search(query, num=int(count), start=0, stop=None, lang="en", tld="com", pause=2.5), start=1):
         number += 1
         log.info(f"{counter}. {result}")
