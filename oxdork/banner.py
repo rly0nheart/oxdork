@@ -1,7 +1,5 @@
-version_tag = "3.0.0"
-
-
 def ascii_banner():
+    version_tag = "3.1.0"
     banner = f"""[red]
       ▐▄• ▄ ·▄▄▄▄        ▄▄▄  ▄ •▄ 
  ▄█▀▄  █▌█▌▪██▪ ██  ▄█▀▄ ▀▄ █·█▌▄▌▪
@@ -9,4 +7,4 @@ def ascii_banner():
 ▐█▌.▐▌▪▐█·█▌██. ██ ▐█▌.▐▌▐█•█▌▐█.█▌
  ▀█▄▀▪•▀▀ ▀▀▀▀▀▀▀•  ▀█▄▀▪.▀  ▀·▀  ▀
                              [/]v{version_tag}"""
-    return banner
+    return banner, version_tag
