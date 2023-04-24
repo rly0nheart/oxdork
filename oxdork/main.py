@@ -16,3 +16,4 @@ def main():
         log.error(f"An error occurred: {error}")
     finally:
         log.info(f"Finished in {datetime.now()-start_time} seconds.")
+        
