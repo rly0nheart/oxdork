@@ -1,7 +1,7 @@
-from oxdork.oxdork import *
+from lib.oxdork import *
 from datetime import datetime
 
-xprint(ascii_banner()[0])
+print(ascii_banner()[0])
 
 
 def main():
