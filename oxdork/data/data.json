@@ -1,0 +1,23 @@
+{
+  "program":
+  {
+    "name": "OxDork",
+    "about": "Google dorking tool",
+    "version":
+    {
+      "major": "3",
+      "minor": "2",
+      "patch": "0",
+      "suffix": ""
+    },
+    "license": "MIT License",
+    "developer":
+    {
+      "name": "Richard Mwewa",
+      "alias": "rly0nheart",
+      "about": "https://about.me/rly0nheart",
+      "twitter": "https://twitter.com/rly0nheart",
+      "github": "https://github.com/rly0nheart"
+    }
+  }
+}
