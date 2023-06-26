@@ -1,5 +1,5 @@
 def ascii_banner():
-    version_tag = "3.1.0"
+    version_tag = "3.1.1"
     banner = f"""[red]
       ▐▄• ▄ ·▄▄▄▄        ▄▄▄  ▄ •▄ 
  ▄█▀▄  █▌█▌▪██▪ ██  ▄█▀▄ ▀▄ █·█▌▄▌▪
