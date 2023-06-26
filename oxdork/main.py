@@ -1,15 +1,21 @@
+import time
 from oxdork.oxdork import *
 from datetime import datetime
+from oxdork.config import data, create_parser
 
-xprint(ascii_banner()[0])
+
+parser = create_parser()
+args = parser.parse_args()
 
 
-def main():
+def run():
     start_time = datetime.now()
-    log.info(f"Started Oxdork {ascii_banner()[1]} at {time.asctime()}")
+    log.info(f"Starting {data()['program']['name']} v{version.full_version()} at {time.asctime()}")
     try:
         check_updates()
-        process_user_query(arguments.query)
+        queries = process_input(args.query)
+        for query in queries:
+            begin_search(query, count=args.count, output=args.output)
     except KeyboardInterrupt as ctrlc:
         log.warning(f"User interruption detected: {ctrlc}")
     except Exception as error:
