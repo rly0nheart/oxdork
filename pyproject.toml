@@ -1,19 +1,23 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
 
-[tool.setuptools]
-packages = ["oxdork"]
+[tool.poetry]
+include = [
+    {path = "oxdork/data/data.json"}
+]
 
-[project]
 name = "oxdork"
-version = "3.1.1"
-description = "Google dorking tool"
+version = "3.2.1"
+description = "Google dorking tool."
 readme = "README.md"
 requires-python = ">=3.8"
-license = {file = "LICENSE"}
+license = "MIT License"
+homepage = "https://github.com/rly0nheart/oxdork"
+documentation = "https://github.com/rly0nheart/oxdork/wiki/"
+repository = "https://github.com/rly0nheart/oxdork.git"
 keywords = ["python", "osint", "google-dorking", "osint", "inurl", "intext", "intitle"]
-authors = [{name = "Richard Mwewa", email = "rly0nheart@duck.com"}]
+authors = ["Richard Mwewa <rly0nheart@duck.com>"]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
   "Programming Language :: Python :: 3",
@@ -24,16 +28,10 @@ classifiers = [
   ""
 ]
 
-dependencies = [
-  "rich",
-  "google",
-  "requests"
-]
+[tool.poetry.dependencies]
+rich = "*"
+google = "*"
 
-[project.urls]
-homepage = "https://github.com/rly0nheart/oxdork"
-documentation = "https://github.com/rly0nheart/oxdork/wiki/"
-repository = "https://github.com/rly0nheart/oxdork.git"
 
-[project.scripts]
-oxdork = "oxdork.main:main"
+[tool.poetry.scripts]
+oxdork = "oxdork.main:run"
