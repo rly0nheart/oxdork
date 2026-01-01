@@ -25,7 +25,6 @@ classifiers = [
   "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
   "Natural Language :: English",
-  ""
 ]
 
 [tool.poetry.dependencies]
