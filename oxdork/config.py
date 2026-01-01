@@ -48,8 +48,7 @@ def data() -> dict:
 # Create parser
 def create_parser():
     parser = argparse.ArgumentParser(description=f"{data()['program']['name']} v{Version().full_version()} — by" 
-                                                 f" {data()['program']['developer']['name']}" 
-                                                 f" ({data()['program']['developer']['about']})",
+                                                 f" {data()['program']['developer']['name']}",
                                      epilog=data()['program']['about'])
     parser.add_argument("query", help="query string or text file containing queries")
     parser.add_argument("-c", "--count", help="number of results to show (default %(default)s).", default=10)

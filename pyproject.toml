@@ -8,8 +8,8 @@ include = [
 ]
 
 name = "oxdork"
-version = "3.2.0"
-description = "Google dorking tool."
+version = "3.2.1"
+description = "Google dorking tool. [archived]"
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT License"
